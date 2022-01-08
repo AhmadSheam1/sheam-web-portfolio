@@ -1,0 +1,79 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 35px;
+}
+p {
+  color: rgb(94, 179, 182);
+}
+.rong {
+  color: palevioletred;
+}
+.uphalf {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.uphalf img {
+  width: 100%;
+}
+.topbk {
+  background-image: url('images/topbk.jpg');
+  background-repeat: no-repeat;
+}
+section {
+  height: 500px;
+  margin-bottom: 100px;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(
+    45deg,
+    rgb(240, 211, 115),
+    rgb(192, 55, 112)
+  );
+  padding: 10px 15px;
+  color: white;
+  font-weight: 700;
+  border-radius: 3px;
+}
+.cont {
+  background-image: url('images/secondbk.gif');
+}
+.single-design {
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 5px;
+  height: 80%;
+  background-color: white;
+}
+.experience {
+  background-image: url('images/exp-bg.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.hi {
+  padding-left: 50px;
+}
+#ya {
+  border-left: 7px solid;
+  border-image: linear-gradient(45deg, rgb(240, 211, 115), rgb(192, 55, 112));
+  border-image-slice: 1;
+}
+#na {
+  border-left: 7px solid;
+  border-image: linear-gradient(45deg, red, pink);
+  border-image-slice: 1;
+}
+footer p {
+  font-size: 12px;
+  text-align: center;
+  color: blueviolet;
+}
